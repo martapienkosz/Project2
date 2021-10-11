@@ -21,7 +21,7 @@ public class ButtonFixtureInteractable : XRBaseInteractable
     bool wasPressed = false;
     float yStart = 0;
     float yOffset = 0;
-    XRDirectInteractor interactor;
+    XRBaseInteractor interactor;
     Coroutine buttonPressCoroutine;
 
     //cannot select the button, only hover interaction
@@ -35,7 +35,7 @@ public class ButtonFixtureInteractable : XRBaseInteractable
         base.OnHoverEntered(args);
         if (interactor == null)
         {
-            interactor = (XRDirectInteractor)args.interactor;
+            interactor = args.interactor;
             StartPress();
         }
     }
