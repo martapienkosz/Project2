@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateFace : MonoBehaviour
 {
-    Vector3 axis = new Vector3(0, 0, 1);
+    Vector3 axis = new Vector3(0, 0, -1);
 
     float offset = 0;
 

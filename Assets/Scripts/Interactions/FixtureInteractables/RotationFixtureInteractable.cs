@@ -69,8 +69,8 @@ public class RotationFixtureInteractable : XRBaseInteractable
             angle = GetLocalRotation(interactor.transform.rotation).eulerAngles.z - startAngle.z;
             
             rotateUpdate?.Invoke(angle);
-
             yield return null; //yield control back, so we pick up the next loop iteration in the next frame
         }
     }
+
 }
