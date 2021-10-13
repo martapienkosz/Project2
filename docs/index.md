@@ -74,6 +74,6 @@ The idea originally was to use these scripts to bring back color to all of the s
 Adding sound could also be helpful for the user to get auditory feedback on their actions. Additionally, background noise could add to the atmosphere of the place. Another thing would be to add pop up instructions or something like that? Sort of resembling a tutorial. 
 Some interactions can definitely be made more difficult by including constraints or having certain consequences for the user if they don’t do it correctly (set them back for example).
 
-![](images/p7.png)
+![](images/p10.png)
 
 This project was very interesting and it definitely got our feet wet into scripting interactions and thinking more about the user experience and how to modify our view in order to find a balance between our initial idea and a more intuitive design.
