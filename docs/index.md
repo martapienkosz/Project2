@@ -1,5 +1,5 @@
 # BlackAndWhite
-## Alternate Realities Project by Marta Pienkosz and Thais Alvarenga
+### Alternate Realities Project by Marta Pienkosz and Thais Alvarenga
 
 The user is placed on a rocky platform floating in the air. Everything seems to be black and white, except for the pale colored wall and the table with magic buttons. The user has to face this and the next three challenges in order to solve the problem of color fading affecting this world. Only after passing the doors placed at the very end of the magic maze, the user will  be able to ensure that the planet happily regains all its colors.
 
@@ -39,6 +39,10 @@ The platform with the maze took the longest time in terms of actually building t
 ### Merging scenes together
 When integrated separated platforms we wanted teleportation to play a key role. We wanted to restrict the teleportation area until the user has successfully completed a challenge. For this purpose we have placed platforms quite a distance from each other. By setting a count variable at the key moment of each interaction we have enabled a subtle move of a consequent platform. It adds an element of immersion and allows for an interesting move of a player through the created world.
 
+We have also created our own skybox material using Adobe Photoshop!
+
+![](images/p9.png)
+
 
 ### Adding colors to the project
 Created a Color Manager for the final part of the game in which the color is brought back to the world. This required two scripts: a ColorChanger, which is applied to every object and is the one that holds the initial gray color and the final color, and a ColorManager which is applied to an empty object and controls the transition of the objects’ colors.Placing the objects on the array was tricky because if one of them did not have the correct properties, the whole array would be erased by Unity and we would have to place it again. 
@@ -70,6 +74,6 @@ The idea originally was to use these scripts to bring back color to all of the s
 Adding sound could also be helpful for the user to get auditory feedback on their actions. Additionally, background noise could add to the atmosphere of the place. Another thing would be to add pop up instructions or something like that? Sort of resembling a tutorial. 
 Some interactions can definitely be made more difficult by including constraints or having certain consequences for the user if they don’t do it correctly (set them back for example).
 
-![](images/p7.png)
+![](images/p10.png)
 
 This project was very interesting and it definitely got our feet wet into scripting interactions and thinking more about the user experience and how to modify our view in order to find a balance between our initial idea and a more intuitive design.
