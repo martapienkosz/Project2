@@ -41,7 +41,7 @@ When integrated separated platforms we wanted teleportation to play a key role. 
 
 We have also created our own skybox material using Adobe Photoshop!
 
-![image](https://user-images.githubusercontent.com/70956012/137117999-b18c50ea-b0a9-4522-b0a1-1e93659e5a0a.png)
+![](images/p9.png)
 
 
 ### Adding colors to the project
@@ -49,7 +49,7 @@ Created a Color Manager for the final part of the game in which the color is bro
 
 The idea originally was to use these scripts to bring back color to all of the scene and have the platforms move so the user can see all of them. However, this was not as practical since in order for the player to be able to move to the last stage, the platform had to be placed with the end located on a part that does not have a view of the rest platform. Thus, we decided to create a space in the end of the maze that would colorize ince the user got out of the maze. It worked very well and the scenes (and the color transition) looked good. 
 
-![](images/p9.png)
+![](images/p5.png)
 
 ### Challenges
 - Merging things.Some stuff would work when it was in its own individual scene but just crash when we placed things together. An example of this was the maze that went completely stray once we added it to the main scene. 
