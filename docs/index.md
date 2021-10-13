@@ -1,5 +1,5 @@
 # BlackAndWhite
-## Alternate Realities Project by Marta Pienkosz and Thais Alvarenga
+### Alternate Realities Project by Marta Pienkosz and Thais Alvarenga
 
 The user is placed on a rocky platform floating in the air. Everything seems to be black and white, except for the pale colored wall and the table with magic buttons. The user has to face this and the next three challenges in order to solve the problem of color fading affecting this world. Only after passing the doors placed at the very end of the magic maze, the user will  be able to ensure that the planet happily regains all its colors.
 
