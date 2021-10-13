@@ -17,6 +17,8 @@ public class KeyController : MonoBehaviour
             cntPlatform3 = 1.0f;
             //manager.transition = Mathf.Clamp( manager.transition +  Time.deltaTime, 0.0f, 1.0f);
             manager.TransitionColors();
+
+            SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.Win);
         }
     }
 }
