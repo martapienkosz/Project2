@@ -9,6 +9,8 @@ TagManager:
   - BlueBall
   - PlaneZero
   - Key
+  - Camera
+  - CyliderWall
   layers:
   - Default
   - TransparentFX

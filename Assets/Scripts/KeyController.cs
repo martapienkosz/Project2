@@ -6,6 +6,8 @@ public class KeyController : MonoBehaviour
 {
     public GameObject Door;
     public float cntPlatform3;
+    public ColorManager manager;
+
 
     public void OnTriggerEnter(Collider other)
     {
@@ -13,6 +15,8 @@ public class KeyController : MonoBehaviour
         {
             Door.SetActive(false);
             cntPlatform3 = 1.0f;
+            //manager.transition = Mathf.Clamp( manager.transition +  Time.deltaTime, 0.0f, 1.0f);
+            manager.TransitionColors();
         }
     }
 }
