@@ -39,13 +39,17 @@ The platform with the maze took the longest time in terms of actually building t
 ### Merging scenes together
 When integrated separated platforms we wanted teleportation to play a key role. We wanted to restrict the teleportation area until the user has successfully completed a challenge. For this purpose we have placed platforms quite a distance from each other. By setting a count variable at the key moment of each interaction we have enabled a subtle move of a consequent platform. It adds an element of immersion and allows for an interesting move of a player through the created world.
 
+We have also created our own skybox material using Adobe Photoshop!
+
+![image](https://user-images.githubusercontent.com/70956012/137117999-b18c50ea-b0a9-4522-b0a1-1e93659e5a0a.png)
+
 
 ### Adding colors to the project
 Created a Color Manager for the final part of the game in which the color is brought back to the world. This required two scripts: a ColorChanger, which is applied to every object and is the one that holds the initial gray color and the final color, and a ColorManager which is applied to an empty object and controls the transition of the objects’ colors.Placing the objects on the array was tricky because if one of them did not have the correct properties, the whole array would be erased by Unity and we would have to place it again. 
 
 The idea originally was to use these scripts to bring back color to all of the scene and have the platforms move so the user can see all of them. However, this was not as practical since in order for the player to be able to move to the last stage, the platform had to be placed with the end located on a part that does not have a view of the rest platform. Thus, we decided to create a space in the end of the maze that would colorize ince the user got out of the maze. It worked very well and the scenes (and the color transition) looked good. 
 
-![](images/p5.png)
+![](images/p9.png)
 
 ### Challenges
 - Merging things.Some stuff would work when it was in its own individual scene but just crash when we placed things together. An example of this was the maze that went completely stray once we added it to the main scene. 
